@@ -1,0 +1,2 @@
+rootProject.name = "E-Voter"
+include ':app'
