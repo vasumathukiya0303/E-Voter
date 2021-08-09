@@ -28,28 +28,32 @@
         app:layout_constraintVertical_bias="0.224" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnVoter"
         android:layout_width="94dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
         android:text="Voter"
         android:textColor="#FFFFFF"
+        android:background="#1976D2"
+        android:backgroundTint="#1976D2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnAdmin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="Admin"
+        android:background="#1976D2"
+        android:backgroundTint="#1976D2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnVoter"
         app:layout_constraintVertical_bias="0.056" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
